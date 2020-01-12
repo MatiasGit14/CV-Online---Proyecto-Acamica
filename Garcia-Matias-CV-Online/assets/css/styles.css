@@ -1,0 +1,126 @@
+    body {
+        margin-left: 0.625rem;
+        margin-right: 0.625rem;
+        color: white;
+        background: linear-gradient(rgb(71, 71, 71), rgb(245, 243, 243));
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    h1 {
+        text-transform: uppercase;
+        font-size: 2em;
+        font-family: 'Literata', serif;
+    }
+    
+    #foto {
+        display: block;
+        width: 16.875rem;
+        float: left;
+    }
+    
+    .carnet {
+        border: 0.0625rem solid transparent;
+        border-radius: 0.75rem;
+        display: block;
+        margin: 0 auto 2rem;
+        box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.897);
+    }
+    
+    .button {
+        display: block;
+        width: 90%;
+        height: 1.875rem;
+        border: 0.0625rem transparent;
+        border-radius: 0.3125rem;
+        margin: -0.6rem auto 0;
+        background-color: #145374;
+        color: white;
+        text-align: initial;
+        padding: 4% 0 0 4%;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    a:not(.button):hover {
+        font-size: 1.1em;
+    }
+    
+    .button:hover {
+        font-size: 0.9em;
+    }
+    
+    a:link {
+        color: white;
+    }
+    
+    section {
+        display: block;
+        border: 0.0625rem solid transparent;
+        border-radius: 0.75rem;
+        float: right;
+        background-color: #5588A3;
+        width: 77%;
+        margin-bottom: 0.5rem;
+        padding: 0.75rem;
+    }
+    
+    h2.separador {
+        border-bottom: 0.125rem solid #0d3f5a;
+    }
+    
+    h2,
+    h3 {
+        color: #0d3f5a;
+        text-transform: uppercase;
+        font-family: 'Literata', serif;
+    }
+    
+    .contacto {
+        display: block;
+        border: 0.125rem solid transparent;
+        background-color: rgb(190, 185, 185);
+        border-radius: 0.75rem;
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 4%;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        margin-top: 2rem;
+    }
+    
+    .redes {
+        margin-right: 1rem;
+    }
+    
+    .portfolio {
+        border-radius: 1.5625rem;
+    }
+    
+    #iconos {
+        height: 6.25rem;
+        border: 0.0625rem solid transparent;
+        border-radius: 1.5625rem;
+    }
+    
+    #portfolio {
+        display: block;
+        border: 0.0625rem solid transparent;
+        border-radius: 0.75rem;
+        float: right;
+        background-color: rgb(78, 78, 78);
+        width: 77%;
+        margin-bottom: 5px;
+        padding: 0.75rem;
+    }
+    
+    footer #portfolio h2 {
+        color: white;
+    }
